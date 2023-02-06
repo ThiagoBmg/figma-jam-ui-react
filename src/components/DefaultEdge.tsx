@@ -25,7 +25,8 @@ export function DefaultEdge({
     <path
       id={id}
       style={style}
-      className="stroke-2 fill-none stroke-zinc-300"
+      className="stroke-3 fill-none stroke-zinc-300"
+      // className="react-flow__edge-path animated stroke-2 stroke-zinc-500"
       d={edgePath}
       markerEnd={markerEnd}
     />
